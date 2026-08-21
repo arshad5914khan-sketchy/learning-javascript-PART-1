@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUMBER GUESSING GAME</title>
+    <style>
+        
+
+        #title{
+            text-align: center;
+            background-color: black;
+            color: white;
+            display: block;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        #para{
+            text-align: center;
+            font-size:large;
+            background-color: honeydew;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        #image{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #input{
+            display:block;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            padding-left: 200px;
+            padding-right: 200px;
+            padding-top:10px;
+            padding-bottom:10px;
+            border:none;
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 20px;
+            font-size: larger;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+            cursor: pointer;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        #button{
+            display:block;
+            margin-right:auto;
+            margin-left:auto;
+            margin-top: 10px;
+            border:none;
+            border-width:1px;
+            border-radius:20px;
+            border-style:solid;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top:10px;
+            padding-bottom:10px;
+            font-size: medium;
+            background-color: black;
+            color:white;
+            transition: opacity 0.50s;
+        }
+        #button:active{
+            opacity: 0.1;
+        }
+
+        #display{
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: medium;
+        }
+    </style>
+</head>
+<body>
+    <div id = "overall">
+    <h1 id = "title" >Number Guessing game</h1>
+    <p id = "para">
+        A number guessing game is an interactive game where the system, or a second player, secretly chooses a number within a specific range. The guessing player inputs attempts, and the game provides hints ("too high" or "too low") to help narrow down the answer until it is correctly solved
+    </p>
+    <img id = "image" src="images/number_guessing_game.jpg" alt="piss off">
+    <input id = "input" type="text" placeholder = "Enter from 1 to 100">
+    <button id = "button">Check</button>
+    <p id = "display" ></p>
+    <script src = "number_guessing_game.js" ></script>
+    </div>
+</body>
+</html>

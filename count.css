@@ -1,0 +1,28 @@
+#countlabel{
+    display:block;
+    text-align:center;
+    font-size: 10em;
+    font-family:helvetica;
+}
+
+#bcontain{
+    text-align:center;
+}
+
+#d,#r,#i{
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align:center;
+    background-color: rgb(76, 76, 220);
+    color:white;
+    border:none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+#d:active, #r:active, #i:active{
+    opacity: 0.5;
+}

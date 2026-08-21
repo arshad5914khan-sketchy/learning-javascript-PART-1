@@ -1,0 +1,70 @@
+#box{
+    display:grid;
+    text-align:center;
+    margin-left: 600px;
+    margin-right:600px;
+    padding-top: 10px;
+    border-style: solid;
+    box-shadow: 0 0 15px 5px rgba(0, 150, 255, 0.5);;
+}
+
+#username{
+    font-family: 'Trebuchet MS';
+    margin-bottom: 10px;
+}
+
+#username1{
+    margin-left:50px;
+    margin-right:50px;
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:5px;
+    border:none;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS';
+
+}
+
+#password{
+    font-family: 'Trebuchet MS';
+    margin-bottom: 10px;
+}
+
+#password1{
+    margin-left: 50px;
+    margin-right:50px;
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:5px;
+    border:none;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS';
+}
+
+#submit{
+    margin-left: 50px;
+    margin-right:50px;
+    font-family: 'Trebuchet MS';
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:5px;
+    border:none;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    margin-top:10px;
+    cursor: pointer;
+    background-color: rgb(0, 191, 255);
+    transition: opacity 0.25s;
+}
+
+#submit:active{
+    opacity: 0.5;
+}
+
